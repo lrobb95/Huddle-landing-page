@@ -41,22 +41,14 @@ p {
 }
 
 body {
-    /* display: flex;
-    /* flex-direction: column; */
-    /* align-content: center; */
     min-height: 100vh;
 }
 
 .container {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     width: 100%;
 }
 
 header {
-    /* margin-bottom: 10rem; */
     padding: 3rem 2rem;
     background-image: url(images/bg-hero-desktop.svg);
     background-position: center;
@@ -75,7 +67,6 @@ header {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        /* margin-bottom: 2rem; */
     }
 }
 
@@ -125,10 +116,6 @@ button {
     margin-top: 5rem;
     width: 100%;
 }
-
-/* .mock-up {
-    width: clamp(10rem, 25vw + 1rem, 25rem);
-} */
 
 @media (width < 73.125rem) { 
     .header-container {
@@ -294,7 +281,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 3rem; */
     max-width: 100%;
 }
 
